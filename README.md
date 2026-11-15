@@ -1,7 +1,7 @@
 <h1>WuWa Character Quiz</h1>
 <p>This app is to test your knowledge by knowing your Resonators!</p>
 
-<p>Notable features of the app</p>p<
+<p>Notable features of the app</p>
 <ul>
 <li>Picker</li>
 <li>ScrollView</li>
