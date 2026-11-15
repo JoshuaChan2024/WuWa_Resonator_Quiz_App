@@ -64,10 +64,6 @@ const QuizApp = () => {
         LaguSansSemiBold: require('./assets/fonts/Lagu-Sans-SemiBold.otf'),
     });
 
-    if (!fontsLoaded) {
-        return null;
-    }
-
     const [selectedResonator1, setSelectedResonator1] = useState('placeholder');
     const [selectedResonator2, setSelectedResonator2] = useState('placeholder');
     const [selectedResonator3, setSelectedResonator3] = useState('placeholder');
@@ -78,6 +74,11 @@ const QuizApp = () => {
     const [selectedResonator8, setSelectedResonator8] = useState('placeholder');
     const [selectedResonator9, setSelectedResonator9] = useState('placeholder');
     const [selectedResonator10, setSelectedResonator10] = useState('placeholder');
+
+    if (!fontsLoaded) {
+        return null;
+    }
+
     const checkAnswers = () => {
         let totalScore = 0;
         if (
@@ -85,7 +86,12 @@ const QuizApp = () => {
             selectedResonator2 === 'placeholder' ||
             selectedResonator3 === 'placeholder' ||
             selectedResonator4 === 'placeholder' ||
-            selectedResonator5 === 'placeholder'
+            selectedResonator5 === 'placeholder' ||
+            selectedResonator6 === 'placeholder' ||
+            selectedResonator7 === 'placeholder' ||
+            selectedResonator8 === 'placeholder' ||
+            selectedResonator9 === 'placeholder' ||
+            selectedResonator10 === 'placeholder'
         ) {
             Alert.alert('Incomplete Quiz', 'Please answer all questions!');
             return;
