@@ -1,19 +1,7 @@
 {
-  "name": "lesson6exercise2",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@expo-google-fonts/outfit": "^0.4.3",
-    "@expo/vector-icons": "^15.0.2",
-    "@react-native-picker/picker": "^2.11.4",
-    "expo": "~58.0.22",
-    "expo-font": "~58.0.12",
-    "expo-linear-gradient": "~58.0.4",
-    "expo-status-bar": "~58.0.4",
-    "react": "19.3.0",
-    "react-native": "0.88.1",
-    "react-native-linear-gradient": "^2.8.3",
-    "react-native-ui-devkit": "^2.0.9"
   },
   "scripts": {
     "start": "expo start",

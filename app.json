@@ -1,7 +1,5 @@
 {
   "expo": {
-    "name": "Lesson6Exercise2",
-    "slug": "Lesson6Exercise2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,26 +13,9 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "package": "com.joshuachan2004.Lesson6Exercise2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      [
-        "expo-font",
-        {
-          "fonts": [
-            "./assets/fonts/Lagu-Sans-SemiBold.otf"
-          ]
-        }
-      ]
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "ffe5dcd3-45c0-46d2-b671-d39c35fa91c8"
-      }
     }
   }
 }
